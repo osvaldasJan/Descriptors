@@ -33,6 +33,224 @@
                 <group>
                     <custom type="com.nomagic.uml2.ext.magicdraw.classes.mddependencies.Abstraction" description="Abstraction" shortcut="pressed T " listAsElement="false" opposite="false" id="IDaction_1336037660788_456573_0"/>
                 </group>
+				<group>
+									<custom type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class" description="Requirement" listAsElement="false" opposite="false" id="IDaction_1156744065875_532307_0">
+										<stereotype id="_11_5EAPbeta_be00301_1147873190330_159934_2220"/>
+										<defaults>
+											<PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
+												<mdElement elementClass="PropertyManager">
+													<mdElement elementClass="BooleanProperty">
+														<propertyID>isActive</propertyID>
+													</mdElement>
+													<mdElement elementClass="BooleanProperty">
+														<propertyID>isAbstract</propertyID>
+													</mdElement>
+													<mdElement elementClass="BooleanProperty">
+														<propertyID>isLeaf</propertyID>
+													</mdElement>
+													<mdElement elementClass="ChoiceProperty">
+														<propertyID>visibility</propertyID>
+														<value>public</value>
+														<choice xmi:value="public^private^protected^package"/>
+														<index xmi:value="0"/>
+													</mdElement>
+												</mdElement>
+											</PropertyVisitorAcceptor>
+										</defaults>
+									</custom>
+				                    <custom type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class" description="Extended Requirement" listAsElement="false" opposite="false" id="IDaction_1175266369203_82605_0">
+                        <stereotype id="_12_1_8740266_1172576734593_228534_190"/>
+                        <defaults>
+                            <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
+								<mdElement elementClass="PropertyManager">
+									<mdElement elementClass="BooleanProperty">
+										<propertyID>isAbstract</propertyID>
+									</mdElement>
+									<mdElement elementClass="BooleanProperty">
+										<propertyID>isActive</propertyID>
+									</mdElement>
+									<mdElement elementClass="BooleanProperty">
+										<propertyID>isLeaf</propertyID>
+									</mdElement>
+									<mdElement elementClass="ChoiceProperty">
+										<propertyID>visibility</propertyID>
+										<value>public</value>
+										<choice xmi:value="public^private^protected^package"/>
+										<index xmi:value="0"/>
+									</mdElement>
+								</mdElement>
+                            </PropertyVisitorAcceptor>
+                        </defaults>
+                    </custom>
+                    <custom type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class" description="Business Requirement" listAsElement="false" opposite="false" id="IDaction_1175266340265_517071_0">
+                        <stereotype id="_12_1_8740266_1172577924546_705207_930"/>
+                        <defaults>
+                            <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
+								<mdElement elementClass="PropertyManager">
+									<mdElement elementClass="BooleanProperty">
+										<propertyID>isAbstract</propertyID>
+									</mdElement>
+									<mdElement elementClass="BooleanProperty">
+										<propertyID>isActive</propertyID>
+									</mdElement>
+									<mdElement elementClass="BooleanProperty">
+										<propertyID>isLeaf</propertyID>
+									</mdElement>
+									<mdElement elementClass="ChoiceProperty">
+										<propertyID>visibility</propertyID>
+										<value>public</value>
+										<choice xmi:value="public^private^protected^package"/>
+										<index xmi:value="0"/>
+									</mdElement>
+								</mdElement>
+                            </PropertyVisitorAcceptor>
+                        </defaults>
+                    </custom>
+                    <custom type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class" description="Usability Requirement" listAsElement="false" opposite="false" id="IDaction_1175266432984_360963_0">
+                        <stereotype id="_12_1_8740266_1172576899359_902879_864"/>
+                        <defaults>
+                            <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
+<mdElement elementClass="PropertyManager">
+    <mdElement elementClass="BooleanProperty">
+        <propertyID>isAbstract</propertyID>
+    </mdElement>
+    <mdElement elementClass="BooleanProperty">
+        <propertyID>isActive</propertyID>
+    </mdElement>
+    <mdElement elementClass="BooleanProperty">
+        <propertyID>isLeaf</propertyID>
+    </mdElement>
+    <mdElement elementClass="ChoiceProperty">
+        <propertyID>visibility</propertyID>
+        <value>public</value>
+        <choice xmi:value="public^private^protected^package"/>
+        <index xmi:value="0"/>
+    </mdElement>
+</mdElement>
+                            </PropertyVisitorAcceptor>
+                        </defaults>
+                    </custom>
+                    <custom type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class" description="Functional Requirement" listAsElement="false" opposite="false" id="IDaction_1175266385015_68561_0">
+                        <stereotype id="_12_1_8740266_1172576734609_530688_194"/>
+                        <defaults>
+                            <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
+<mdElement elementClass="PropertyManager">
+    <mdElement elementClass="BooleanProperty">
+        <propertyID>isAbstract</propertyID>
+    </mdElement>
+    <mdElement elementClass="BooleanProperty">
+        <propertyID>isActive</propertyID>
+    </mdElement>
+    <mdElement elementClass="BooleanProperty">
+        <propertyID>isLeaf</propertyID>
+    </mdElement>
+    <mdElement elementClass="ChoiceProperty">
+        <propertyID>visibility</propertyID>
+        <value>public</value>
+        <choice xmi:value="public^private^protected^package"/>
+        <index xmi:value="0"/>
+    </mdElement>
+</mdElement>
+                            </PropertyVisitorAcceptor>
+                        </defaults>
+                    </custom>
+                    <custom type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class" description="Interface Requirement" listAsElement="false" opposite="false" id="IDaction_1175266456468_906979_0">
+                        <stereotype id="_12_1_8740266_1172576734609_387880_196"/>
+                        <defaults>
+                            <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
+<mdElement elementClass="PropertyManager">
+    <mdElement elementClass="BooleanProperty">
+        <propertyID>isAbstract</propertyID>
+    </mdElement>
+    <mdElement elementClass="BooleanProperty">
+        <propertyID>isActive</propertyID>
+    </mdElement>
+    <mdElement elementClass="BooleanProperty">
+        <propertyID>isLeaf</propertyID>
+    </mdElement>
+    <mdElement elementClass="ChoiceProperty">
+        <propertyID>visibility</propertyID>
+        <value>public</value>
+        <choice xmi:value="public^private^protected^package"/>
+        <index xmi:value="0"/>
+    </mdElement>
+</mdElement>
+                            </PropertyVisitorAcceptor>
+                        </defaults>
+                    </custom>
+                    <custom type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class" description="Performance Requirement" listAsElement="false" opposite="false" id="IDaction_1175266397140_680839_0">
+                        <stereotype id="_12_1_8740266_1172576734609_725391_198"/>
+                        <defaults>
+                            <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
+<mdElement elementClass="PropertyManager">
+    <mdElement elementClass="BooleanProperty">
+        <propertyID>isAbstract</propertyID>
+    </mdElement>
+    <mdElement elementClass="BooleanProperty">
+        <propertyID>isActive</propertyID>
+    </mdElement>
+    <mdElement elementClass="BooleanProperty">
+        <propertyID>isLeaf</propertyID>
+    </mdElement>
+    <mdElement elementClass="ChoiceProperty">
+        <propertyID>visibility</propertyID>
+        <value>public</value>
+        <choice xmi:value="public^private^protected^package"/>
+        <index xmi:value="0"/>
+    </mdElement>
+</mdElement>
+                            </PropertyVisitorAcceptor>
+                        </defaults>
+                    </custom>
+                    <custom type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class" description="Physical Requirement" listAsElement="false" opposite="false" id="IDaction_1175266411843_288541_0">
+                        <stereotype id="_12_1_8740266_1172576734609_380772_200"/>
+                        <defaults>
+                            <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
+<mdElement elementClass="PropertyManager">
+    <mdElement elementClass="BooleanProperty">
+        <propertyID>isAbstract</propertyID>
+    </mdElement>
+    <mdElement elementClass="BooleanProperty">
+        <propertyID>isActive</propertyID>
+    </mdElement>
+    <mdElement elementClass="BooleanProperty">
+        <propertyID>isLeaf</propertyID>
+    </mdElement>
+    <mdElement elementClass="ChoiceProperty">
+        <propertyID>visibility</propertyID>
+        <value>public</value>
+        <choice xmi:value="public^private^protected^package"/>
+        <index xmi:value="0"/>
+    </mdElement>
+</mdElement>
+                            </PropertyVisitorAcceptor>
+                        </defaults>
+                    </custom>
+                    <custom type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class" description="Design Constraint" listAsElement="false" opposite="false" id="IDaction_1175266358750_362981_0">
+                        <stereotype id="_12_1_8740266_1172576734609_234637_202"/>
+                        <defaults>
+                            <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
+<mdElement elementClass="PropertyManager">
+    <mdElement elementClass="BooleanProperty">
+        <propertyID>isAbstract</propertyID>
+    </mdElement>
+    <mdElement elementClass="BooleanProperty">
+        <propertyID>isActive</propertyID>
+    </mdElement>
+    <mdElement elementClass="BooleanProperty">
+        <propertyID>isLeaf</propertyID>
+    </mdElement>
+    <mdElement elementClass="ChoiceProperty">
+        <propertyID>visibility</propertyID>
+        <value>public</value>
+        <choice xmi:value="public^private^protected^package"/>
+        <index xmi:value="0"/>
+    </mdElement>
+</mdElement>
+                            </PropertyVisitorAcceptor>
+                        </defaults>
+                    </custom>
+                </group>
                 <standard action="ADD_DEPENDENCY" shortcut="shift pressed D "/>
                 <custom type="com.nomagic.uml2.ext.magicdraw.classes.mddependencies.Abstraction" description="Satisfy" listAsElement="false" opposite="false" id="IDaction_1550153298325_340280_0">
                     <stereotype id="_11_5EAPbeta_be00301_1147873165274_736484_2128"/>
