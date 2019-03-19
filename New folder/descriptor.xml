@@ -30,9 +30,6 @@
                     <standard action="ADD_CONTAINMENT_LINK" shortcut="shift pressed C "/>
                     <standard action="ADD_CONTAINMENT_LINK_OPPOSITE" shortcut="shift pressed K "/>
                 </group>
-                <group>
-                    <custom type="com.nomagic.uml2.ext.magicdraw.classes.mddependencies.Abstraction" description="Abstraction" shortcut="pressed T " listAsElement="false" opposite="false" id="IDaction_1336037660788_456573_0"/>
-                </group>
 				<group>
 									<custom type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class" description="Requirement" listAsElement="false" opposite="false" id="IDaction_1156744065875_532307_0">
 										<stereotype id="_11_5EAPbeta_be00301_1147873190330_159934_2220"/>
@@ -255,6 +252,26 @@
                 <custom type="com.nomagic.uml2.ext.magicdraw.classes.mddependencies.Abstraction" description="Satisfy" listAsElement="false" opposite="false" id="IDaction_1550153298325_340280_0">
                     <stereotype id="_11_5EAPbeta_be00301_1147873165274_736484_2128"/>
                 </custom>
+				<custom type="com.nomagic.uml2.ext.magicdraw.classes.mddependencies.Abstraction" description="Refine" listAsElement="false" opposite="false" id="IDaction_1156921751890_878956_0">
+                    <stereotype id="_17_0_5beta_17530432_1382584914591_39608_11809"/>
+                    <buttonicon type="small" size="16" filename="mdp://resource/com/nomagic/requirements/icons/diagrams/refine-b.png"></buttonicon>
+                    <buttonicon type="large" size="16" filename="mdp://resource/com/nomagic/requirements/icons/diagrams/refine-b.svg"></buttonicon>
+                </custom>
+                <custom type="com.nomagic.uml2.ext.magicdraw.classes.mddependencies.Abstraction" description="Verify" listAsElement="false" opposite="false" id="IDaction_1156744552750_594607_0">
+                    <stereotype id="_11_5EAPbeta_be00301_1147873114711_445574_2026"/>
+                    <defaults>
+                        <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
+                            <mdElement elementClass="PropertyManager">
+								<mdElement elementClass="ChoiceProperty">
+									<propertyID>visibility</propertyID>
+									<value>public</value>
+									<choice xmi:value="public^private^protected^package"/>
+									<index xmi:value="0"/>
+								</mdElement>
+                            </mdElement>
+                        </PropertyVisitorAcceptor>
+                    </defaults>
+                </custom>				
                 <custom type="com.nomagic.uml2.ext.magicdraw.classes.mddependencies.Abstraction" description="Allocate" listAsElement="false" opposite="false" id="IDaction_1161258505703_142954_0">
                     <stereotype id="_11_5EAPbeta_be00301_1147866646230_488749_1541"/>
                     <defaults>
